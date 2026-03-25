@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap');
 
-/* CSS Variables for Premium Dark Theme */
+/* CSS Variables for Premium Grey and White Theme */
 :root {
-    --bg-primary: #f8fafc;
+    --bg-primary: #f0f0f0;
     --bg-secondary: #ffffff;
-    --bg-tertiary: rgba(255, 255, 255, 0.9);
-    --accent-primary: #475569;
-    --accent-hover: #1e293b;
-    --text-primary: #0f172a;
-    --text-secondary: #64748b;
+    --bg-tertiary: rgba(255, 255, 255, 0.95);
+    --accent-primary: #777777;
+    --accent-hover: #333333;
+    --text-primary: #222222;
+    --text-secondary: #666666;
     --glass-border: rgba(0, 0, 0, 0.08);
     --shadow-md: 0 20px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
-    --shadow-glow: 0 0 20px rgba(71, 85, 105, 0.15);
+    --shadow-glow: 0 0 20px rgba(119, 119, 119, 0.15);
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -127,7 +127,7 @@ header {
 .btn-primary {
     background: var(--accent-primary);
     color: #ffffff;
-    box-shadow: 0 4px 15px rgba(71, 85, 105, 0.3);
+    box-shadow: 0 4px 15px rgba(119, 119, 119, 0.3);
 }
 
 .btn-primary:hover {
@@ -220,7 +220,7 @@ header {
     overflow: hidden;
     position: relative;
     box-shadow: var(--shadow-glow);
-    border: 2px solid rgba(71, 85, 105, 0.2);
+    border: 2px solid rgba(119, 119, 119, 0.2);
     transform: rotate(3deg);
     transition: var(--transition);
 }
@@ -283,8 +283,8 @@ header {
 
 .project-card:hover {
     transform: translateY(-10px);
-    box-shadow: var(--shadow-md), 0 0 20px rgba(71, 85, 105, 0.15);
-    border-color: rgba(71, 85, 105, 0.3);
+    box-shadow: var(--shadow-md), 0 0 20px rgba(119, 119, 119, 0.15);
+    border-color: rgba(119, 119, 119, 0.3);
 }
 
 .project-image {
@@ -333,7 +333,7 @@ header {
     font-size: 0.85rem;
     letter-spacing: 1px;
     text-decoration: none;
-    background: rgba(71, 85, 105, 0.1);
+    background: rgba(119, 119, 119, 0.1);
     color: var(--accent-primary);
     transition: var(--transition);
 }
@@ -341,7 +341,7 @@ header {
 .project-link:hover {
     background: var(--accent-primary);
     color: #ffffff;
-    box-shadow: 0 4px 10px rgba(71, 85, 105, 0.4);
+    box-shadow: 0 4px 10px rgba(119, 119, 119, 0.4);
 }
 
 /* Full Width Project Card */
@@ -402,8 +402,8 @@ header {
 
 .skill-category:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(71, 85, 105, 0.1);
-    border-color: rgba(71, 85, 105, 0.2);
+    box-shadow: 0 10px 30px rgba(119, 119, 119, 0.1);
+    border-color: rgba(119, 119, 119, 0.2);
 }
 
 .skill-category-title {
@@ -620,13 +620,13 @@ footer {
 .timeline-content:hover {
     transform: translateY(-5px);
     box-shadow: var(--shadow-md), var(--shadow-glow);
-    border-color: rgba(71, 85, 105, 0.3);
+    border-color: rgba(119, 119, 119, 0.3);
 }
 
 .timeline-date {
     display: inline-block;
     padding: 0.4rem 1.2rem;
-    background: rgba(71, 85, 105, 0.1);
+    background: rgba(119, 119, 119, 0.1);
     border-radius: 50px;
     font-size: 0.9rem;
     font-weight: 700;
