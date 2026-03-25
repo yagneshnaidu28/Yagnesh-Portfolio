@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mallarapu Yagnesh Naidu | Portfolio</title>
+    <!-- Modern Font injected via CSS directly -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Social Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- jQuery for existing logic -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <!-- Header/Nav -->
+    <header>
+        <div class="logo">
+            <a href="index.html">Yagnesh <span>Naidu</span></a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#" class="about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#hackathons">Achievements</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="mailto:yagneshnaidu28@gmail.com">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content wrapper to be replaced by 'About' click logic -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="container hero-wrapper">
+                <div class="hero-content">
+                    <h4 class="hero-subtitle">Python Full Stack Developer</h4>
+                    <h1 class="hero-title">Hello, my name is <span>Mallarapu Yagnesh Naidu</span></h1>
+                    <p class="hero-description">
+                        I am a dedicated B.Tech student specializing in Computer Science and Artificial Intelligence at
+                        Parul University.<br><br>
+                        With strong skills in Python and hands-on experience in project-based learning, I am passionate
+                        about developing innovative technologies.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">View My Projects</a>
+                        <a href="https://www.linkedin.com/in/yagnesh-naidu-220b66260/" target="_blank"
+                            class="btn btn-secondary">LinkedIn Profile</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="images_portfolio/yagnesh1.jpg" alt="Mallarapu Yagnesh Naidu">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects-section" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">My Projects</h2>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images_portfolio/project1.jpg" alt="Text to Video Generation Profile Image">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Text to Video Generation</h3>
+                            <p class="project-desc">Built an end-to-end generative AI pipeline converting text prompts
+                                into dynamic video content.</p>
+                            <a href="https://github.com/yagneshnaidu28/Text-to-Video_generation" target="_blank"
+                                class="project-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images_portfolio/project2.jpg" alt="Hospital Complaint Management Image">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Hospital Complaint Management</h3>
+                            <p class="project-desc">Implemented role-based admin access to monitor complaints and manage
+                                statuses effectively across hospitals.</p>
+                            <a href="https://github.com/yagneshnaidu28/Axon-Hospital-Complaint-Management-System"
+                                target="_blank" class="project-link">View Project <i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 (Learnova Full Width) -->
+                    <div class="project-card project-card-full">
+                        <div class="project-image">
+                            <img src="images_portfolio/project4.jpg" alt="Learnova Project Image">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Learnova (e-Learning Platform)</h3>
+                            <div class="skill-pills" style="margin-bottom: 1.5rem; gap: 0.5rem; flex-wrap: wrap;">
+                                <span class="skill-pill"
+                                    style="font-size: 0.75rem; padding: 0.3rem 0.6rem; animation: none;">NextJS</span>
+                                <span class="skill-pill"
+                                    style="font-size: 0.75rem; padding: 0.3rem 0.6rem; animation: none;">Django</span>
+                                <span class="skill-pill"
+                                    style="font-size: 0.75rem; padding: 0.3rem 0.6rem; animation: none;">MySQL</span>
+                                <span class="skill-pill"
+                                    style="font-size: 0.75rem; padding: 0.3rem 0.6rem; animation: none;">Bootstrap</span>
+                                <span class="skill-pill"
+                                    style="font-size: 0.75rem; padding: 0.3rem 0.6rem; animation: none;">Docker</span>
+                                <span class="skill-pill"
+                                    style="font-size: 0.75rem; padding: 0.3rem 0.6rem; animation: none;">Redis</span>
+                            </div>
+                            <ul class="project-desc"
+                                style="padding-left: 1.2rem; font-size: 0.95rem; list-style-type: disc;">
+                                <li style="margin-bottom: 0.5rem;">Developed a dual-sided LMS with instructor backoffice
+                                    and an interactive learner portal.</li>
+                                <li style="margin-bottom: 0.5rem;">Engineered a full-screen player with real-time
+                                    tracking and a gamified, attempt-based quiz engine.</li>
+                                <li style="margin-bottom: 0.5rem;">Built an administrative dashboard with customizable
+                                    data grids to monitor enrollment and completion metrics.</li>
+                            </ul>
+                            <a href="#" class="project-link">Link <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hackathons Section -->
+        <section class="hackathons-section" id="hackathons">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Achievements & Hackathons</h2>
+                </div>
+                <div class="timeline">
+                    <!-- Event 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <span class="timeline-date">March 2026</span>
+                            <h3 class="timeline-title">Odoo x Gujarat Vidyapith Hackathon ’26 | Odoo</h3>
+                            <ul class="timeline-desc">
+                                <li>Developed Learnova, an end-to-end eLearning platform featuring instructor
+                                    backoffices, gamified learner ecosystems, and automated progress tracking using
+                                    [Nextjs, Django] within a 24-hour sprint.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills-section" id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Technical Skills</h2>
+                </div>
+                <div class="skills-container">
+                    <!-- Languages -->
+                    <div class="skill-category">
+                        <h3 class="skill-category-title"><i class="fa-solid fa-code"></i> Languages</h3>
+                        <div class="skill-pills">
+                            <span class="skill-pill">Python</span>
+                            <span class="skill-pill">C/C++</span>
+                        </div>
+                    </div>
+                    <!-- Backend -->
+                    <div class="skill-category">
+                        <h3 class="skill-category-title"><i class="fa-solid fa-server"></i> Backend</h3>
+                        <div class="skill-pills">
+                            <span class="skill-pill">Django</span>
+                            <span class="skill-pill">RESTful APIs</span>
+                        </div>
+                    </div>
+                    <!-- Frontend -->
+                    <div class="skill-category">
+                        <h3 class="skill-category-title"><i class="fa-solid fa-desktop"></i> Frontend</h3>
+                        <div class="skill-pills">
+                            <span class="skill-pill">ReactJS</span>
+                            <span class="skill-pill">HTML5</span>
+                            <span class="skill-pill">CSS3</span>
+                            <span class="skill-pill">Bootstrap</span>
+                            <span class="skill-pill">JavaScript (ES6+)</span>
+                        </div>
+                    </div>
+                    <!-- Databases -->
+                    <div class="skill-category">
+                        <h3 class="skill-category-title"><i class="fa-solid fa-database"></i> Databases</h3>
+                        <div class="skill-pills">
+                            <span class="skill-pill">MySQL</span>
+                            <span class="skill-pill">Django ORM</span>
+                        </div>
+                    </div>
+                    <!-- AI & Tools -->
+                    <div class="skill-category">
+                        <h3 class="skill-category-title"><i class="fa-solid fa-wrench"></i> AI & Tools</h3>
+                        <div class="skill-pills">
+                            <span class="skill-pill">Git/GitHub</span>
+                            <span class="skill-pill">VS Code</span>
+                            <span class="skill-pill">Anaconda</span>
+                            <span class="skill-pill">PyCharm</span>
+                            <span class="skill-pill">Postman</span>
+                            <span class="skill-pill">Anti-Gravity</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Area -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://www.instagram.com/yagnesh__ram?igsh=cmprenBkNjd0ZGNy" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/yagnesh-naidu-220b66260/" target="_blank"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:yagneshnaidu28@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <div class="footer-text">
+                <p>&copy; 2026 Mallarapu Yagnesh Naidu. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        $(document).ready(function () {
+            $(".about").click(function (e) {
+                e.preventDefault();
+
+                // removing main-content gracefully
+                $("#main-content").remove();
+
+                // Add active state to navlink
+                $(".nav-links a").removeClass("active");
+                $(this).addClass("active");
+
+                // define the "about me" content matching the new styling layer
+                var aboutContent = `
+                <main id="main-content" style="padding-top: 100px;">
+                    <section class="about-section container">
+                        <div class="about-wrapper">
+                            <div class="about-content">
+                                <h1 class="about-title">About <span>Me</span></h1>
+                                <p class="about-text">
+                                    Aspiring Computer Science graduate with a strong foundation in software development, problem-solving, and user-centered design. Hands-on experience building full stack web applications using Python, Django, ReactJS, and databases. 
+                                    <br><br>
+                                    Eager to contribute to a growth-driven organization by applying solid engineering fundamentals, continuous learning, and a passion for emerging technologies.
+                                </p>
+                                <a href="https://drive.google.com/file/d/14GRyuvvcMDlUDMrsymkDDhlpnyXzEqDv/view?usp=sharing" target="_blank" class="btn btn-primary">Download Resume</a>
+                            </div>
+                            
+                            <div class="about-image">
+                                <div class="about-img-container">
+                                    <img src="images_portfolio/Yagnesh1.webp" alt="Yagnesh Naidu Profile">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+                `;
+
+                // insert before the footer to maintain layout standard
+                $(aboutContent).insertBefore("footer");
+
+                // Scroll to top
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+
+            // Fix for anchor scroll positioning with fixed header
+            $('a[href^="#"]').on('click', function (e) {
+                if ($(this).hasClass('about')) return;
+
+                e.preventDefault();
+                var target = this.hash;
+                if (!target || $(target).length === 0) return;
+
+                var $target = $(target);
+                $('html, body').stop().animate({
+                    'scrollTop': $target.offset().top - 80
+                }, 900, 'swing');
+            });
+        });
+    </script>
+</body>
+
+</html>
