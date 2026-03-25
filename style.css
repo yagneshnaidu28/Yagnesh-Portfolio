@@ -2,16 +2,16 @@
 
 /* CSS Variables for Premium Dark Theme */
 :root {
-    --bg-primary: #0f172a;
-    --bg-secondary: #1e293b;
-    --bg-tertiary: rgba(30, 41, 59, 0.7);
-    --accent-primary: #f59e0b;
-    --accent-hover: #fbbf24;
-    --text-primary: #ffffff;
-    --text-secondary: #94a3b8;
-    --glass-border: rgba(255, 255, 255, 0.1);
-    --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -4px rgba(0, 0, 0, 0.5);
-    --shadow-glow: 0 0 15px rgba(245, 158, 11, 0.4);
+    --bg-primary: #f8fafc;
+    --bg-secondary: #ffffff;
+    --bg-tertiary: rgba(255, 255, 255, 0.9);
+    --accent-primary: #475569;
+    --accent-hover: #1e293b;
+    --text-primary: #0f172a;
+    --text-secondary: #64748b;
+    --glass-border: rgba(0, 0, 0, 0.08);
+    --shadow-md: 0 20px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
+    --shadow-glow: 0 0 20px rgba(71, 85, 105, 0.15);
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -126,8 +126,8 @@ header {
 
 .btn-primary {
     background: var(--accent-primary);
-    color: #000;
-    box-shadow: 0 4px 15px rgba(245, 158, 11, 0.3);
+    color: #ffffff;
+    box-shadow: 0 4px 15px rgba(71, 85, 105, 0.3);
 }
 
 .btn-primary:hover {
@@ -144,7 +144,7 @@ header {
 
 .btn-secondary:hover {
     background: var(--accent-primary);
-    color: #000;
+    color: #ffffff;
     transform: translateY(-3px);
     box-shadow: var(--shadow-glow);
 }
@@ -220,7 +220,7 @@ header {
     overflow: hidden;
     position: relative;
     box-shadow: var(--shadow-glow);
-    border: 2px solid rgba(245, 158, 11, 0.2);
+    border: 2px solid rgba(71, 85, 105, 0.2);
     transform: rotate(3deg);
     transition: var(--transition);
 }
@@ -283,8 +283,8 @@ header {
 
 .project-card:hover {
     transform: translateY(-10px);
-    box-shadow: var(--shadow-md), 0 0 20px rgba(245, 158, 11, 0.15);
-    border-color: rgba(245, 158, 11, 0.3);
+    box-shadow: var(--shadow-md), 0 0 20px rgba(71, 85, 105, 0.15);
+    border-color: rgba(71, 85, 105, 0.3);
 }
 
 .project-image {
@@ -333,15 +333,15 @@ header {
     font-size: 0.85rem;
     letter-spacing: 1px;
     text-decoration: none;
-    background: rgba(245, 158, 11, 0.1);
+    background: rgba(71, 85, 105, 0.1);
     color: var(--accent-primary);
     transition: var(--transition);
 }
 
 .project-link:hover {
     background: var(--accent-primary);
-    color: #000;
-    box-shadow: 0 4px 10px rgba(245, 158, 11, 0.4);
+    color: #ffffff;
+    box-shadow: 0 4px 10px rgba(71, 85, 105, 0.4);
 }
 
 /* Full Width Project Card */
@@ -402,8 +402,8 @@ header {
 
 .skill-category:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(245, 158, 11, 0.1);
-    border-color: rgba(245, 158, 11, 0.2);
+    box-shadow: 0 10px 30px rgba(71, 85, 105, 0.1);
+    border-color: rgba(71, 85, 105, 0.2);
 }
 
 .skill-category-title {
@@ -423,8 +423,8 @@ header {
 }
 
 .skill-pill {
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(0, 0, 0, 0.08);
     padding: 0.5rem 1rem;
     border-radius: 50px;
     font-size: 0.9rem;
@@ -443,7 +443,7 @@ header {
 
 .skill-pill:hover {
     background: var(--accent-primary);
-    color: #000;
+    color: #ffffff;
     transform: scale(1.05);
     border-color: var(--accent-primary);
     animation-play-state: paused;
@@ -481,7 +481,7 @@ footer {
 
 .social-links a:hover {
     background: var(--accent-primary);
-    color: #000;
+    color: #ffffff;
     transform: translateY(-5px);
     box-shadow: var(--shadow-glow);
     border-color: var(--accent-primary);
@@ -620,13 +620,13 @@ footer {
 .timeline-content:hover {
     transform: translateY(-5px);
     box-shadow: var(--shadow-md), var(--shadow-glow);
-    border-color: rgba(245, 158, 11, 0.3);
+    border-color: rgba(71, 85, 105, 0.3);
 }
 
 .timeline-date {
     display: inline-block;
     padding: 0.4rem 1.2rem;
-    background: rgba(245, 158, 11, 0.1);
+    background: rgba(71, 85, 105, 0.1);
     border-radius: 50px;
     font-size: 0.9rem;
     font-weight: 700;
